@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+    font-family: "Lato", Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background-image:url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p :link {
+    text-decoration: none;
+    color: #0000AA;
+}
+p :visited {
+    text-decoration: none;
+    color: #0000AA;
+}
+p :hover {
+    color: #0000EE;
+}
+p :focus {
+    color: #0000EE;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Raleway", Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+h2, h3 {
+    font-color: #505050;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 125%;
+}
+
+h4 {
+    font-size: 120%;
+    color: #EEEEEE;
+    margin: 0px;
+}
+
+header {    
+    padding: 1em;
+    background-color: #FA5A0F;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #EA4A00;
+    color: #FFFFFF;
+}
+
+main {
+    margin: 20px 20px 20px 30%;
+    background-image:url(../img/ricepaper_v3.png);
+    opacity: 0.9;
+}
+
+.info {
+    padding: 1em;
+}
+
+.menu {
+    padding: 1em;
+    background-color: rgba(207, 205, 140, 0.5);
+}
+
+dt {
+    font-weight: 400;
+}
+
+dd {
+    margin: 0em 0em 1em 1em;
+    font-size: 80%;
+    font-style: italic
+}
+
+.about {
+    padding: 1em;
+}
+
+footer {
+    padding: 1em;
+    background-color: #FC892F;
+    border-top: solid;
+    border-top-width: 5px;
+    border-color: #EC791F;
+    font-size: 80%;
+    text-align: right;
+}
+    
