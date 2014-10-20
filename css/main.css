@@ -95,4 +95,69 @@ footer {
     font-size: 80%;
     text-align: right;
 }
+
+.container-fluid {
+    padding: 0;
+}
+
+@media all and (min-width: 992px) {
+    nav {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
     
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 1em;
+    }
+}
+
+@media all and (max-width:991px) {
+    body {
+        background-image: none;
+        font-size: 16px;
+    }
+    
+    main {
+        margin: 0;
+    }
+    
+    .container-fluid {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    h4 {
+        display: none;
+    }
+    
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 1em;
+    }
+    
+    nav :link {
+        color:#55E;
+    }
+    
+    nav :hover {
+        color:#00E;
+    }
+    
+    nav: focus {
+        color:#00E;
+    }
+
+}
